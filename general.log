@@ -1,0 +1,76 @@
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Calling httpbin
+Received the response
+Internal Server Error: /playground/hello/
+Traceback (most recent call last):
+  File "/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Calling httpbin
+Received the response
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/storefront/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/storefront/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/manage.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Calling httpbin
+httpbin is offline
+Not Found: /store/carts/ce4e0bad-36ab-447d-adb0-f16e583263e1/
+Unauthorized: /store/collections/
+Forbidden: /store/collections/
+Bad Request: /store/collections/
+Unauthorized: /store/products/
+Forbidden: /store/products/
+Bad Request: /store/products/
+Unauthorized: /store/collections/
+Forbidden: /store/collections/
+Method Not Allowed: /store/collections/
+Unauthorized: /store/products/
+Forbidden: /store/products/
+Method Not Allowed: /store/products/
+/Users/D-BEATS/Downloads/The Ultimate Django Series Part 3/[TutsNode.com] - The Ultimate Django Series Part 3/code/Code/1- Getting Started/Start/storefront3/storefront/settings/common.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Unauthorized: /store/collections/
+Forbidden: /store/collections/
+Bad Request: /store/collections/
+Unauthorized: /store/products/
+Forbidden: /store/products/
+Bad Request: /store/products/
+Unauthorized: /store/collections/
+Forbidden: /store/collections/
+Method Not Allowed: /store/collections/
+Unauthorized: /store/products/
+Forbidden: /store/products/
+Method Not Allowed: /store/products/
+/Users/D-BEATS/.local/share/virtualenvs/storefront3-Xjma7Czc/lib/python3.10/site-packages/certifi/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Cannot execute silk_profile as silk is not installed correctly.
