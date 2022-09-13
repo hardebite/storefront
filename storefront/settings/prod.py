@@ -1,13 +1,27 @@
 import os
-from .common import *
 import dj_database_url
-
-
-# SECURITY WARNING: don't run with debug turned on in production!
+from .common import *
 DEBUG = False
-SECRET_KEY = os.environ.get('SECRET_KEY')
-ALLOWED_HOSTS = ['adebuy-prod.herokuapp.com']
+
+SECRET_KEY = os.environ['SECRET_KEY']
+
+ALLOWED_HOSTS = ['moshbuy-prod.herokuapp.com']
 
 DATABASES = {
     'default': dj_database_url.config()
+}
+
+REDIS_URL = os.environ['REDIS_URL']
+
+CELERY_BROKER_URL = REDIS_URL
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': REDIS_URL,
+        'TIMEOUT': 10 * 60,
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+        }
+    }
 }
